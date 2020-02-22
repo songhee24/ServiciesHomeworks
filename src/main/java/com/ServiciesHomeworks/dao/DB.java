@@ -3,10 +3,10 @@ package com.ServiciesHomeworks.dao;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-public class DbConnection {
-    private final static String url = "jdbc:postgresql://localhost:5432/Calculation";
+public class DB {
+    private final static String url = "jdbc:postgresql://localhost:5432/postgres";
     private final static String user = "postgres";
-    private final static String password = "postgres";
+    private final static String password = "d244224d";
     public static Connection connect(){
         Connection conn = null;
         try{

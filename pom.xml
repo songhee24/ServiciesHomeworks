@@ -54,69 +54,97 @@
       <artifactId>javax.servlet-api</artifactId>
       <version>3.1.0</version>
     </dependency>
+
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <version>1.18.10</version>
       <scope>provided</scope>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
     <dependency>
-      <groupId>postgresql</groupId>
+      <groupId>org.postgresql</groupId>
       <artifactId>postgresql</artifactId>
-      <version>9.1-901-1.jdbc4</version>
+      <version>42.2.10</version>
     </dependency>
+
+
     <!-- https://mvnrepository.com/artifact/asm/asm -->
     <dependency>
       <groupId>asm</groupId>
       <artifactId>asm</artifactId>
-      <version>3.3.1</version>
+      <version>3.3</version>
     </dependency>
+
     <!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-bundle -->
     <dependency>
       <groupId>com.sun.jersey</groupId>
       <artifactId>jersey-bundle</artifactId>
-      <version>1.19</version>
+      <version>1.19.4</version>
     </dependency>
+
     <!-- https://mvnrepository.com/artifact/org.json/json -->
     <dependency>
       <groupId>org.json</groupId>
       <artifactId>json</artifactId>
-      <version>20160810</version>
+      <version>20190722</version>
     </dependency>
+
     <!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-server -->
     <dependency>
       <groupId>com.sun.jersey</groupId>
       <artifactId>jersey-server</artifactId>
-      <version>1.19.2</version>
+      <version>1.19.4</version>
     </dependency>
+
     <!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-core -->
     <dependency>
       <groupId>com.sun.jersey</groupId>
       <artifactId>jersey-core</artifactId>
-      <version>1.19.2</version>
+      <version>1.19.4</version>
     </dependency>
+
     <!-- https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-mapper-asl -->
     <dependency>
       <groupId>org.codehaus.jackson</groupId>
       <artifactId>jackson-mapper-asl</artifactId>
-      <version>1.9.13</version>
+      <version>1.9.12</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
+
+    <!-- https://mvnrepository.com/artifact/org.glassfish.jersey.media/jersey-media-json-jackson -->
+    <dependency>
+      <groupId>org.glassfish.jersey.media</groupId>
+      <artifactId>jersey-media-json-jackson</artifactId>
+      <version>2.30</version>
+    </dependency>
+
+
+
+<!--    &lt;!&ndash; https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api &ndash;&gt;
     <dependency>
       <groupId>javax.xml.bind</groupId>
       <artifactId>jaxb-api</artifactId>
-      <version>2.3.0</version>
+      <version>2.3.1</version>
     </dependency>
+
+    &lt;!&ndash; https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-impl &ndash;&gt;
     <dependency>
       <groupId>com.sun.xml.bind</groupId>
       <artifactId>jaxb-impl</artifactId>
-      <version>2.2.11</version>
+      <version>2.3.1</version>
     </dependency>
+
+
+    &lt;!&ndash; https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-core &ndash;&gt;
     <dependency>
       <groupId>com.sun.xml.bind</groupId>
       <artifactId>jaxb-core</artifactId>
-      <version>2.2.11</version>
-    </dependency>
+      <version>2.3.0.1</version>
+    </dependency>-->
+
+
+
     <!-- https://mvnrepository.com/artifact/javax.activation/activation -->
     <dependency>
       <groupId>javax.activation</groupId>
